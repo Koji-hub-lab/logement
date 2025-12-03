@@ -1,0 +1,19 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('path/to/your/image.jpg'); /* Remplacez par le chemin de votre image d'en-tête */
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin: 1rem 0;
+}
