@@ -40,6 +40,8 @@ class RegisteredUserController extends Controller
         event(new Registered($user));
         Auth::login($user);
 
-        return redirect('/');
+        // Rediriger vers le tableau de bord approprié en fonction du rôle
+        $route = $user->role === 'bailleur' ? 'bailleur.dashboard' : 'client.dashboard';
+        return redirect()->route($route);
     }
 }
