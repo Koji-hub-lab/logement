@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-                <p>&copy; 2023 Logement. Tous droits réservés.</p>
+                <p>&copy; 2024 Logement. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
